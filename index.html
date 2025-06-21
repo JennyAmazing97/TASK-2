@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+
+<body>
+
+  <h2>Contact Us</h2>
+
+  <!-- The form starts here -->
+  <form action="#" method="post">
+
+    <!-- Full Address -->
+    <label>Full Address:</label><br>
+    <textarea name="address" rows="2" cols="30" placeholder="Enter your full address" required></textarea><br><br>
+
+    <!-- Email Address -->
+    <label>Email Address:</label><br>
+    <input type="email" name="email" placeholder="jennyamazing@gmail.com" required><br><br>
+
+    <!-- Phone Number -->
+    <label>Phone Number:</label><br>
+    <input type="tel" name="phone" placeholder="09114918724" required><br><br>
+
+    <!-- Radio Buttons -->
+    <p>How should we contact you?</p>
+    <input type="radio" name="contact" value="email" required> Email<br>
+    <input type="radio" name="contact" value="phone"> Phone<br><br>
+
+    <!-- Checkboxes -->
+    <p>What are you interested in?</p>
+    <input type="checkbox" name="interest1" value="Web Design"> Web Design<br>
+    <input type="checkbox" name="interest2" value="Graphics"> Graphics<br>
+    <input type="checkbox" name="interest3" value="Forex"> Marketing<br><br>
+
+    <!-- Drop-down Selection -->
+    <label>Your Budget:</label><br>
+    <select name="budget" required>
+      <option value="">--Choose one--</option>
+      <option value="less100">Less than N100</option>
+      <option value="100-500">N100 - N500</option>
+      <option value="morethan500">More than N500</option>
+    </select><br><br>
+
+    <!-- Message Box -->
+    <label>Message:</label><br>
+    <textarea name="message" rows="4" cols="30" placeholder="Type your message here..." required></textarea><br><br>
+
+    <!-- Submit Button -->
+    <input type="submit" value="Submit">
+
+  </form>
+
+</body>
+</html>
